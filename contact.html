@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <ul>
+                <li class="pagina-inicial"><a href="index.html" class="pagina-inicial">Início</a></li>
+            </ul>
+            <nav>
+                <ul>
+                    <li><a href="about.html">Sobre Mim</a></li>
+                    <li><a href="curriculum.html">Currículo</a></li>
+                    <li><a href="recipes.html">Receitas</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="acessibilidade">
+                <button id="tema" title="Tema" onclick="mudarTema()">Claro</button>
+                <button id="diminuir" title="Diminuir fonte" onclick="diminuirFonte()">A-</button>
+                <button id="restaurar" title="Restaurar fonte" onclick="restaurarFonte()">A</button>
+                <button id="aumentar" title="Aumentar fonte" onclick="aumentarFonte()">A+</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>Contato</h1>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required minlength="2">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <input type="text" id="mensagem" required minlength="2">
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2026 - Blog acadêmico</p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>

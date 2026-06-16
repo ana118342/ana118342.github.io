@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <ul>
+                <li class="pagina-inicial"><a href="index.html" class="pagina-inicial">Início</a></li>
+            </ul>
+            <nav>
+                <ul>
+                    <li><a href="about.html">Sobre Mim</a></li>
+                    <li><a href="curriculum.html">Currículo</a></li>
+                    <li><a href="recipes.html">Receitas</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="acessibilidade">
+                <button id="tema" title="Tema" onclick="mudarTema()">Claro</button>
+                <button id="diminuir" title="Diminuir fonte" onclick="diminuirFonte()">A-</button>
+                <button id="restaurar" title="Restaurar fonte" onclick="restaurarFonte()">A</button>
+                <button id="aumentar" title="Aumentar fonte" onclick="aumentarFonte()">A+</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>Currículo</h1>
+        <br>  
+        <h2>Experiências</h2>
+        <br>
+        <ul class="experiencias">
+            <li>Desenvolvedora na Rede Américas (2025 - Atual)</li>
+            <li>Desenvolvedora na Dataintegra (2022 - 2025)</li>
+        </ul>
+        <br>
+        <br>
+        <h2>Habilidades</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Habilidade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Oracle Database</td>
+                </tr>
+                <tr>
+                    <td>Typescript</td>
+                </tr>
+                <tr>
+                    <td>Git</td>
+                </tr>
+                <tr>
+                    <td>Scrum</td>
+                </tr>
+                <tr>
+                    <td>Azure DevOps</td>
+                </tr>
+                <tr>
+                    <td>Jira</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <h2>Educação</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Curso</th>
+                    <th>Instituição</th>
+                    <th>Período</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Análise e Desenvolvimento de Sistemas</td>
+                    <td>Universidade de Passo Fundo</td>
+                    <td>2026 - 2028</td>
+                </tr>
+                <tr>
+                    <td>Física</td>
+                    <td>Universidade de Passo Fundo</td>
+                    <td>2013 - 2016</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>&copy; 2026 - Blog acadêmico</p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>

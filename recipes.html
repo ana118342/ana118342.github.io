@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <ul>
+                <li class="pagina-inicial"><a href="index.html" class="pagina-inicial">Início</a></li>
+            </ul>
+            <nav>
+                <ul>
+                    <li><a href="about.html">Sobre Mim</a></li>
+                    <li><a href="curriculum.html">Currículo</a></li>
+                    <li><a href="recipes.html">Receitas</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="acessibilidade">
+                <button id="tema" title="Tema" onclick="mudarTema()">Claro</button>
+                <button id="diminuir" title="Diminuir fonte" onclick="diminuirFonte()">A-</button>
+                <button id="restaurar" title="Restaurar fonte" onclick="restaurarFonte()">A</button>
+                <button id="aumentar" title="Aumentar fonte" onclick="aumentarFonte()">A+</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1>Receitas</h1>
+        <br>
+        <p>Minhas receitas favoritas, testadas e aprovadas.</p>
+        <br>
+        <ul>
+            <li><a href="./passion-fruit-mousse.html">Mousse de Maracujá</a></li>
+            <li><a href="./corn-cake.html">Bolo de Milho</a></li>
+        </ul>
+    </main>
+    <footer>
+        <p>&copy; 2026 - Blog acadêmico</p>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
